@@ -1,5 +1,5 @@
 # gatsby-typescript-boilerplate
-Opinionated gatsby v2 typescript boilerplate. 
+Opinionated [Gatsby](https://www.gatsbyjs.org/) V2 with [TypeScript](https://www.typescriptlang.org/) boilerplate. 
 
 ![Gatsby + TypeScript](src/images/gatsby-typescript.jpg)
 
@@ -7,7 +7,7 @@ Opinionated gatsby v2 typescript boilerplate.
 * Gatsby V2
 * TypeScript
 * Prettier
-* Styline
+* Stylelint
 * TSLint
 
 ## Getting started
