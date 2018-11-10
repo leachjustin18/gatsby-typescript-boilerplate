@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import Layout from '../layout';
-import Image from '../components/image';
+import Image from '../components/Image';
 
 const IndexPage = () => (
   <Layout>
