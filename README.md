@@ -10,7 +10,7 @@ Opinionated gatsby v2 typescript boilerplate.
 * Styline
 * TSLint
 
-##Getting started
-Clone repo
-npm install
-npm run develop
+## Getting started
+* Clone repo
+* npm install
+* npm run develop
