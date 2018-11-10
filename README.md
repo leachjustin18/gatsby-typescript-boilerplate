@@ -1,9 +1,11 @@
 # gatsby-typescript-boilerplate
 Opinionated gatsby v2 typescript boilerplate. 
 
+![Gatsby + TypeScript](src/images/gatsby-typescript.jpg)
+
 ## Includes
 * Gatsby V2
-* Typescript
+* TypeScript
 * Prettier
 * Styline
 * TSLint
