@@ -6,7 +6,7 @@ import './layout.css';
 
 interface LayoutProps {
   className?: string;
-  children: Node;
+  children: JSX.Element[];
 }
 
 interface StaticQueryProps {
@@ -18,7 +18,7 @@ interface StaticQueryProps {
 }
 
 class Layout extends React.Component<LayoutProps, {}> {
-  return() {
+  public render() {
     return (
       <StaticQuery
         query={graphql`

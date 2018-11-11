@@ -11,7 +11,7 @@ interface StaticQueryProps {
 }
 
 class Image extends React.PureComponent<{}, {}> {
-  render() {
+  public render() {
     return (
       <StaticQuery
         query={graphql`
