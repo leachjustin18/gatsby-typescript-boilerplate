@@ -26,6 +26,8 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-    'gatsby-plugin-favicon'
+    'gatsby-plugin-favicon',
+    'gatsby-plugin-typescript',
+    'gatsby-plugin-tslint'
   ],
 }
