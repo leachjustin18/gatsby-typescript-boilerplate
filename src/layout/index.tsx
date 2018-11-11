@@ -9,6 +9,14 @@ interface LayoutProps {
   children: Node;
 }
 
+interface StaticQueryProps {
+  site: {
+    siteMetadata: {
+      title: string;
+    };
+  };
+}
+
 class Layout extends React.Component<LayoutProps, {}> {
   return() {
     return (
@@ -22,7 +30,7 @@ class Layout extends React.Component<LayoutProps, {}> {
             }
           }
         `}
-        render={data => {
+        render={(data: StaticQueryProps) => {
           const { siteMetadata } = data.site;
           const { children } = this.props;
 
@@ -37,7 +45,7 @@ class Layout extends React.Component<LayoutProps, {}> {
               >
                 <html lang="en" />
               </Helmet>
-              <Header siteTitle={data.site.siteMetadata.title} />
+              <Header siteTitle={siteMetadata.title} />
               <div
                 style={{
                   margin: '0 auto',
