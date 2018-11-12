@@ -1,9 +1,12 @@
+const cssnano = require('css-mqpacker');
+const autoprefixer = require('autoprefixer');
+const mqPacker = require('css-mqpacker');
+
 module.exports = {
   siteMetadata: {
     title: 'Gatsby TypeScript Boilerplate',
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -11,8 +14,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -25,9 +26,32 @@ module.exports = {
         icon: './src/favicon.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        postCssPlugins: [
+          autoprefixer(),
+          cssnano({
+            preset: [
+              'default',
+              {
+                autoprefixer: true,
+                discardUnused: true,
+                mergeIdents: true,
+                zindex: true,
+              },
+            ],
+          }),
+          mqPacker(),
+        ],
+      },
+    },
     'gatsby-plugin-offline',
     'gatsby-plugin-favicon',
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sharp',
     'gatsby-plugin-typescript',
-    'gatsby-plugin-tslint'
+    'gatsby-plugin-tslint',
+    'gatsby-transformer-sharp',
   ],
-}
+};
