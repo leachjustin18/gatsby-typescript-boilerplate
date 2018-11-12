@@ -8,6 +8,10 @@
     "develop": "gatsby develop",
     "start": "npm run develop"
   },
+  "browserslist": [
+    "defaults",
+    "ie >=9"
+  ],
   "dependencies": {
     "gatsby": "^2.0.45",
     "gatsby-image": "^2.0.20",
@@ -54,7 +58,12 @@
     }
   },
   "lint-staged": {
-    "*.{js,json,css,ts,tsx}": [
+    "*.{ts,tsx}": [
+      "tslint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "*.{js,json}": [
       "prettier --write",
       "git add"
     ]
