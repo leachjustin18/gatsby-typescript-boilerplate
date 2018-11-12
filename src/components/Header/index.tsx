@@ -1,4 +1,5 @@
-import React from 'react';
+/* tslint:disable-next-line */
+import * as React from 'react';
 import { Link } from 'gatsby';
 
 interface HeaderProps {
