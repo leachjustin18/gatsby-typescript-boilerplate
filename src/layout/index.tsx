@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 import Header from '../components/Header';
-import './layout.css';
+import './layout.scss';
 
 interface LayoutProps {
   className?: string;
