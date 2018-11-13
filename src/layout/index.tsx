@@ -1,5 +1,4 @@
-import * as React from 'react';
-// tslint:disable-next-line
+import React from 'react';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 import Header from '../components/Header';
