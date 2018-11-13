@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 import Layout from '../layout';
 
-class SecondPage extends React.PureComponent {
+class SecondPage extends React.PureComponent<{}, {}> {
   public render() {
     return (
       <Layout>
