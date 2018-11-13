@@ -42,9 +42,7 @@
     "node-sass": "^4.10.0",
     "prettier": "^1.15.2",
     "stylelint": "^9.8.0",
-    "stylelint-config-prettier": "^4.0.0",
     "stylelint-config-recommended-scss": "^3.2.0",
-    "stylelint-order": "^1.0.0",
     "stylelint-scss": "^3.4.0",
     "tslint": "^5.11.0",
     "tslint-config-airbnb": "^5.11.0",
@@ -67,6 +65,10 @@
     "*.{js,json}": [
       "prettier --write",
       "git add"
+    ],
+    "*{.scss}": [
+      "prettier --write",
+      "stylelint --fix"
     ]
   },
   "repository": {
