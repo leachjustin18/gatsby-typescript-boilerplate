@@ -67,8 +67,8 @@
       "git add"
     ],
     "*{.scss}": [
-      "prettier --write",
-      "stylelint --fix"
+      "stylelint --fix",
+      "git add"
     ]
   },
   "repository": {
