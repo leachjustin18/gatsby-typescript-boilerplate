@@ -1,8 +1,12 @@
 .header {
     background-color: rebeccapurple;
-    margin: 0 auto 1.45rem;
-    max-width: 60rem;
     padding: 1.45rem 1.0875rem;
+}
+
+.header__title {
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header__link {

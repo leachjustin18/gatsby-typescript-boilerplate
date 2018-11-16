@@ -12,7 +12,7 @@ class Header extends React.PureComponent<HeaderProps, {}> {
 
     return (
       <header className="header">
-        <h1>
+        <h1 className="header__title">
           <Link to="/" className="header__link">
             {siteTitle}
           </Link>

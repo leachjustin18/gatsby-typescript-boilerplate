@@ -39,8 +39,11 @@ class Layout extends React.Component<LayoutProps, {}> {
               <Helmet
                 title={siteMetadata.title}
                 meta={[
-                  { name: 'description', content: 'Sample' },
-                  { name: 'keywords', content: 'sample, something' },
+                  {
+                    name: 'description',
+                    content: 'Gatsby TypeScript Boilerplate Starter',
+                  },
+                  { name: 'keywords', content: 'Gatsby, TypeScript, Starter' },
                 ]}
               >
                 <html lang="en" />
