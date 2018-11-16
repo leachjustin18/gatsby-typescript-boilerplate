@@ -14,6 +14,7 @@ class Image extends React.PureComponent<{}, {}> {
   public render() {
     return (
       <StaticQuery
+        // tslint:disable-next-line:jsx-no-multiline-js
         query={graphql`
           query {
             placeholderImage: file(
