@@ -3,14 +3,35 @@ Opinionated [Gatsby](https://www.gatsbyjs.org/) V2 with [TypeScript](https://www
 
 ![Gatsby + TypeScript](src/images/gatsby-typescript.jpg)
 
-## Includes
-* Gatsby V2
-* TypeScript
-* Prettier
-* Stylelint
-* TSLint
+## Features
+* Offline support
+* Fav Icons for various devices.
+* Manifest
 
-## Getting started
-* Clone repo
-* npm install
-* npm run develop
+## Built With
+* [Gatsby V2](https://www.gatsbyjs.org/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [SCSS (SASS)](https://sass-lang.com/)
+* [react-helmet](https://www.npmjs.com/package/react-helmet)
+
+## Gatsby Plugins
+* [gatsby-plugin-favicon](https://www.npmjs.com/package/gatsby-plugin-favicon)
+* [gatsby-source-filesystem](https://www.npmjs.com/package/gatsby-source-filesystem)
+* [gatsby-plugin-offline](https://www.npmjs.com/package/gatsby-plugin-offline)
+* [gatsby-plugin-tslint](https://www.npmjs.com/package/gatsby-plugin-tslint)
+* [gatsby-plugin-sharp](https://www.npmjs.com/package/gatsby-plugin-sharp)
+* [gatsby-transformer-sharp](https://www.npmjs.com/package/gatsby-transformer-sharp)
+* [gatsby-plugin-manifest](https://www.npmjs.com/package/gatsby-plugin-manifest)
+* [gatsby-image](https://www.npmjs.com/package/gatsby-image)
+
+## TS Lint Plugins
+* [tslint-config-airbnb](https://www.npmjs.com/package/tslint-config-airbnb)
+* [tslint-config-prettier](https://www.npmjs.com/package/tslint-config-prettier)
+* [tslint-plugin-prettier](https://www.npmjs.com/package/tslint-plugin-prettier)
+
+## Other Plugins
+* [autoprefixer](https://www.npmjs.com/package/autoprefixer)
+* [CSS nano](https://github.com/cssnano/cssnano)
+* [Prettier](https://www.npmjs.com/package/prettier)
+* [Stylelint](https://www.npmjs.com/package/stylelint)
+* [CSS MQ Packer](https://www.npmjs.com/package/css-mqpacker)
