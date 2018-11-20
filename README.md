@@ -15,7 +15,7 @@ Opinionated [Gatsby](https://www.gatsbyjs.org/) V2 with [TypeScript](https://www
 * [TypeScript](https://www.typescriptlang.org/)
 * [SCSS (SASS)](https://sass-lang.com/)
 * [react-helmet](https://www.npmjs.com/package/react-helmet)
-[postcss](https://github.com/postcss)
+* [postcss](https://github.com/postcss)
 
 ## Gatsby Plugins
 * [gatsby-plugin-favicon](https://www.npmjs.com/package/gatsby-plugin-favicon)
