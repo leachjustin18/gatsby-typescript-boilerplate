@@ -5,6 +5,7 @@ const mqPacker = require('css-mqpacker');
 module.exports = {
   siteMetadata: {
     title: 'Gatsby TypeScript Boilerplate',
+    siteUrl: `https://gatsby-typescript-boilerplate.netlify.com`,
   },
   plugins: [
     {
@@ -52,6 +53,7 @@ module.exports = {
     `gatsby-plugin-favicon`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-tslint`,
     `gatsby-transformer-sharp`,
