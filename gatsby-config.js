@@ -42,7 +42,9 @@ module.exports = {
               },
             ],
           }),
-          mqPacker(),
+          mqPacker({
+            sort: true,
+          }),
         ],
       },
     },
