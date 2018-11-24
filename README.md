@@ -1,5 +1,5 @@
 # gatsby-typescript-boilerplate
-Opinionated [Gatsby](https://www.gatsbyjs.org/) V2 with [TypeScript](https://www.typescriptlang.org/) boilerplate. 
+Opinionated [Gatsby](https://www.gatsbyjs.org/) with [TypeScript](https://www.typescriptlang.org/) boilerplate. 
 
 ![Gatsby + TypeScript](src/images/gatsby-typescript.jpg)
 
