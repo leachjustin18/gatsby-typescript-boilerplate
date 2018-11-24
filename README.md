@@ -6,7 +6,6 @@ Opinionated [Gatsby](https://www.gatsbyjs.org/) V2 with [TypeScript](https://www
 ## Features
 * Offline support.
 * Fav Icons for various devices.
-* Manifest.
 * PWA(Progressive Web Application).
 
 
